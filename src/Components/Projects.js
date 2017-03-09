@@ -11,13 +11,15 @@ class Projects extends Component {
             projectItems = this.props.projects.map(project =>{
                 //console.log(project);
                 return (
-                    <ProjectItem  key ={project.title} project={project}/>
-                );
+                    <ProjectItem  key={project.title} project={project}/>
+                )
             });
         }
 
         return (
             <div className="Projects">
+                <h3>Latest Projects</h3>
+
                 {projectItems}
 
             </div>
