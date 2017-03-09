@@ -48,11 +48,11 @@ class AddProject extends Component {
 
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     <div>
-                        <label>Title</label>
+                        <label>Title:</label><br/>
                         <input type="text" ref="title"/>
-                    </div>
+                    </div><br/>
                     <div>
-                        <label>Category</label>
+                        <label>Category:  </label><br/>
                         <select ref="category">
                             {categoryOptions}
                         </select>
@@ -60,6 +60,7 @@ class AddProject extends Component {
                     <br/>
                     <input type="submit" value="Submit"/>
                     <br/>
+
                 </form>
 
             </div>

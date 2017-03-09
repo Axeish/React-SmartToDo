@@ -45,7 +45,10 @@ class App extends Component {
 }     render() { 
         return ( 
             <div className="App"> 
-                <div className="App-header"></div> 
+                <div className="App-header">
+                    <h3>TO-DO LIST </h3>
+                    React is Awesome
+                </div> 
                 <div className="container"> 
                     <AddProject addProject={this.handleAddProject.bind(this)}/> 
                     <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)}/> 

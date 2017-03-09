@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+
+    text-align: Left;
+}
+.App-header h3 {
+    font-size: 40px;
+}
+
+
+body {
+     font: normal normal 13px/16px "Open Sans", sans-serif;
+     background: #ccc;
+ }
+
+form {
+    display: inline-block;
+}
+
+.container{
+    text-align:left;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;}
+
+
+.DeleteButton{
+
+}

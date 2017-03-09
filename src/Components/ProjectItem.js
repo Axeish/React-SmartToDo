@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Button from 'react-bootstrap/lib/Button';
 
 class ProjectItem extends Component {
     deleteProject(id){
@@ -7,8 +7,11 @@ class ProjectItem extends Component {
     }
     render() {
         return (
+
             <li className="Projects">
-                <strong> {this.props.project.title}</strong>-{this.props.project.category} <a href="#" onClick={this.deleteProject.bind(this,this.props.project.id)}>X</a>
+                <Button title="X" onClick={this.deleteProject.bind(this,this.props.project.id)}>X</Button>
+                <strong> {this.props.project.title}</strong>-{this.props.project.category}
+
             </li>
         );
     }
